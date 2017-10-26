@@ -61,3 +61,115 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+body {
+	font-family: Courier, serif;
+}
+
+
+/*****************************************************
+*Header CSS
+*****************************************************/
+body > div > header {
+	background: gray;
+	padding: 1em;
+	color: #55ff2f;
+}
+
+body > div > header > div > h1 {
+	float: left;
+	overflow: auto;
+	clear: left;
+}
+
+/*****************************************************
+*WELCOME IMAGE
+*****************************************************/
+section > div > img {
+	display-inside: inline-block;
+	margin: 3em;
+}
+
+/*****************************************************
+*ABOUT ME
+*****************************************************/
+.about-me {
+	color: white;
+	background: blue;
+	padding: 2em;
+	font-family: Courier, serif;
+}
+
+/*****************************************************
+*Instructions
+*****************************************************/
+.instructions-wrapper {
+	border: 2px solid black;
+	padding: 1em;
+	margin: 2em;
+}
+
+/*****************************************************
+*PROFESSIONAL SKILLZ
+*****************************************************/
+table {
+	margin-bottom: 2em;
+}
+
+th, td {
+	background: gray;
+	border: 1px solid white;
+	color: #55ff2f;
+	padding: 1.5em;
+	font-family: Courier, serif;
+	text-align: center;
+}
+
+th {
+	font-weight:bold;
+	font-family: Courier, serif;
+}
+
+/*****************************************************
+*CONTACT FORM
+*****************************************************/
+.contact-form {
+	background: gray;
+}
+
+.form-wrapper {
+	background: forestgreen;
+	color: #55ff2f;
+	font-family: Courier, serif;
+	padding: .5em 0em .5em 2em;
+}
+
+form > div {
+	margin: 1em;
+	display: block;
+	font-size: 14px;
+}
+
+form > div > label {
+	display: block;
+}
+
+button {
+	background: #55ff2f;
+	color: black;
+	padding: .5em 1em .5em 1em;
+	font-size: 1em;
+	font-family: Courier, serif;
+	margin-left: 1em;
+}
+
+/*****************************************************
+*FOOTER
+*****************************************************/
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+	font-family: Courier, serif;
+	padding-top: 1em;
+}
