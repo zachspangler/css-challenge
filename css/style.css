@@ -70,16 +70,24 @@ body {
 /*****************************************************
 *Header CSS
 *****************************************************/
+header {
+	background: gray;
+}
+
 body > div > header {
 	background: gray;
 	padding: 1em;
 	color: #55ff2f;
+	display: inline;
 }
 
 /*****************************************************
 *WELCOME IMAGE
 *****************************************************/
-
+.welcomepic {
+	display: block;
+	margin: 2em;
+}
 
 /*****************************************************
 *ABOUT ME
@@ -100,8 +108,26 @@ body > div > header {
 	margin: 2em;
 }
 
+.instructions-content {
+	display: inline;
+}
+
 ol {
 	float: left;
+}
+
+img[src="images/captain-janeway.png"] {
+	float: right;
+	height: 35%;
+	width: 35%;
+}
+/*****************************************************
+*ABOUT ME
+*****************************************************/
+img[src="images/stunning.jpg"] {
+	float: left;
+	height: 35%;
+	width: 35%;
 }
 /*****************************************************
 *PROFESSIONAL SKILLZ
@@ -138,6 +164,8 @@ td:nth-child(2) {
 td:nth-child(3) {
 	width: 40em;
 }
+
+
 
 /*****************************************************
 *CONTACT FORM
