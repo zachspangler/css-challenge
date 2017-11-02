@@ -74,15 +74,13 @@ body {
 *Header CSS
 *****************************************************/
 header {
-	background: gray;
+	background-color: gray;
 	color: #55ff2f;
-	display: inline;
+	padding: 1em;
 }
 
-header > div {
-	background: gray;
-	color: #55ff2f;
-	display: inline;
+header h1 {
+	display: inline-block;
 }
 /*****************************************************
 *WELCOME IMAGE
@@ -114,6 +112,7 @@ img[src="images/captain-janeway.png"] {
 	width: 267.6px;
 	padding: 1em;
 }
+
 /*****************************************************
 *ABOUT ME
 *****************************************************/
